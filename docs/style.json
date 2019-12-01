@@ -1,0 +1,300 @@
+{
+  "center": [
+    139.714776,
+    35.700768
+  ],
+  "glyphs": "https://un-vector-tile-toolkit.github.io/kawagoe/fonts/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "background",
+      "paint": {
+        "background-color": [
+          "rgb",
+          243,
+          245,
+          250
+        ]
+      },
+      "type": "background"
+    },
+    {
+      "id": "lake",
+      "layout": {},
+      "paint": {
+        "line-color": [
+          "rgb",
+          20,
+          90,
+          255
+        ]
+      },
+      "source": "v",
+      "source-layer": "lake",
+      "type": "line"
+    },
+    {
+      "id": "landforma",
+      "layout": {},
+      "paint": {
+        "fill-color": [
+          "rgb",
+          20,
+          90,
+          255
+        ]
+      },
+      "source": "v",
+      "source-layer": "landforma",
+      "type": "fill"
+    },
+    {
+      "id": "building",
+      "layout": {},
+      "paint": {
+        "fill-extrusion-color": [
+          "rgb",
+          255,
+          240,
+          190
+        ],
+        "fill-extrusion-height": 25
+      },
+      "source": "v",
+      "source-layer": "building",
+      "type": "fill-extrusion"
+    },
+    {
+      "id": "structurea",
+      "layout": {},
+      "paint": {
+        "fill-extrusion-color": [
+          "rgb",
+          255,
+          135,
+          75
+        ],
+        "fill-extrusion-height": 25
+      },
+      "source": "v",
+      "source-layer": "structurea",
+      "type": "fill-extrusion"
+    },
+    {
+      "id": "coastline",
+      "layout": {},
+      "paint": {
+        "line-color": [
+          "rgb",
+          20,
+          90,
+          255
+        ]
+      },
+      "source": "v",
+      "source-layer": "coastline",
+      "type": "line"
+    },
+    {
+      "id": "river",
+      "layout": {},
+      "paint": {
+        "line-color": [
+          "rgb",
+          20,
+          90,
+          255
+        ]
+      },
+      "source": "v",
+      "source-layer": "river",
+      "type": "line"
+    },
+    {
+      "id": "searoute",
+      "layout": {},
+      "paint": {
+        "line-color": [
+          "rgb",
+          0,
+          0,
+          0
+        ],
+        "line-dasharray": [
+          6,
+          6
+        ]
+      },
+      "source": "v",
+      "source-layer": "searoute",
+      "type": "line"
+    },
+    {
+      "id": "contour",
+      "layout": {},
+      "paint": {
+        "line-color": [
+          "rgb",
+          200,
+          160,
+          60
+        ]
+      },
+      "source": "v",
+      "source-layer": "contour",
+      "type": "line"
+    },
+    {
+      "id": "landforml",
+      "layout": {},
+      "paint": {
+        "line-color": [
+          "rgb",
+          200,
+          160,
+          60
+        ]
+      },
+      "source": "v",
+      "source-layer": "landforml",
+      "type": "line"
+    },
+    {
+      "id": "boundary",
+      "layout": {},
+      "paint": {
+        "line-color": [
+          "rgb",
+          68,
+          0,
+          128
+        ]
+      },
+      "source": "v",
+      "source-layer": "boundary",
+      "type": "line"
+    },
+    {
+      "id": "road",
+      "layout": {},
+      "paint": {
+        "line-color": [
+          "rgb",
+          100,
+          100,
+          100
+        ]
+      },
+      "source": "v",
+      "source-layer": "road",
+      "type": "line"
+    },
+    {
+      "id": "railway",
+      "layout": {},
+      "paint": {
+        "line-color": [
+          "rgb",
+          0,
+          0,
+          0
+        ]
+      },
+      "source": "v",
+      "source-layer": "railway",
+      "type": "line"
+    },
+    {
+      "id": "structurel",
+      "layout": {},
+      "paint": {
+        "line-color": [
+          "rgb",
+          0,
+          0,
+          0
+        ]
+      },
+      "source": "v",
+      "source-layer": "structurel",
+      "type": "line"
+    },
+    {
+      "id": "transl",
+      "layout": {},
+      "paint": {
+        "line-color": [
+          "rgb",
+          0,
+          0,
+          0
+        ]
+      },
+      "source": "v",
+      "source-layer": "transl",
+      "type": "line"
+    },
+    {
+      "id": "landformp",
+      "layout": {
+        "icon-image": "refugee"
+      },
+      "paint": {},
+      "source": "v",
+      "source-layer": "landformp",
+      "type": "symbol"
+    },
+    {
+      "id": "transp",
+      "layout": {
+        "icon-image": "bus_station"
+      },
+      "paint": {},
+      "source": "v",
+      "source-layer": "transp",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol",
+      "layout": {
+        "icon-image": "default"
+      },
+      "paint": {},
+      "source": "v",
+      "source-layer": "symbol",
+      "type": "symbol"
+    },
+    {
+      "id": "label",
+      "layout": {
+        "icon-image": "un"
+      },
+      "paint": {},
+      "source": "v",
+      "source-layer": "label",
+      "type": "symbol"
+    }
+  ],
+  "light": {
+    "intensity": 0.2,
+    "position": [
+      1.5,
+      210,
+      30
+    ]
+  },
+  "location": "https://un-vector-tile-toolkit.github.io/kawagoe",
+  "sources": {
+    "v": {
+      "attribution": "Source: GSI Maps Vector",
+      "maxzoom": 14,
+      "minzoom": 7,
+      "tiles": [
+        "https://un-vector-tile-toolkit.github.io/kawagoe/zxy/experimental_bvmap/{z}/{x}/{y}.pbf"
+      ],
+      "type": "vector"
+    }
+  },
+  "sprite": "https://un-vector-tile-toolkit.github.io/kawagoe/sprite",
+  "version": 8,
+  "zoom": 11
+}

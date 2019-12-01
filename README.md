@@ -6,3 +6,13 @@ scenario-based exercise
 - gh-pages from the `docs` directory
 - running codes for scenario-based exercise, integrated in Rakefile
 
+# First time installation
+```zsh
+$ yarn
+```
+
+# List of `rake` tasks
+
+# Required external repositories
+- gh:mapbox/mapbox-gl-js
+
