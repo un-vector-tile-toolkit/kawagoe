@@ -1,4 +1,17 @@
-task :default do
+task :landformclassification1 do
+  sh "node downloadLandformclassification1.js > \
+    tmp/landformclassification1.geojsons"
+  sh "tippecanoe --no-feature-limit --no-tile-size-limit --force \
+    --hilbert --read-parallel \
+    --output=tmp/landformclassification1.mbtiles \
+    tmp/landformclassification1.geojsons"
+  sh "tile-join --force \
+    --output-to-directory=docs/zxy/landformclassification1 \
+    --no-tile-compression --no-tile-size-limit \
+    tmp/landformclassification1.mbtiles"
+end
+
+task :bvmap do
   sh "node downloadBvmap.js"
 end
 
