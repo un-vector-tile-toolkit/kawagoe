@@ -1,7 +1,7 @@
 {
   "center": [
-    139.714776,
-    35.700768
+    139.48,
+    35.9602
   ],
   "glyphs": "https://un-vector-tile-toolkit.github.io/kawagoe/fonts/{fontstack}/{range}.pbf",
   "layers": [
@@ -286,8 +286,8 @@
   "sources": {
     "v": {
       "attribution": "Source: GSI Maps Vector",
-      "maxzoom": 14,
-      "minzoom": 7,
+      "maxzoom": 17,
+      "minzoom": 11,
       "tiles": [
         "https://un-vector-tile-toolkit.github.io/kawagoe/zxy/experimental_bvmap/{z}/{x}/{y}.pbf"
       ],
