@@ -1,0 +1,13 @@
+{
+"name": "tmp/landformclassification1.mbtiles",
+"description": "tmp/landformclassification1.mbtiles",
+"version": "2",
+"minzoom": "0",
+"maxzoom": "14",
+"center": "139.493408,35.986896,14",
+"bounds": "139.372559,35.871247,139.592285,36.049099",
+"type": "overlay",
+"format": "pbf",
+"generator": "tile-join v1.33.0",
+"json": "{\"vector_layers\": [ { \"id\": \"landformclassification1\", \"description\": \"\", \"minzoom\": 14, \"maxzoom\": 14, \"fields\": {\"code\": \"String\"} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"landformclassification1\",\"count\": 8370,\"geometry\": \"Polygon\",\"attributeCount\": 1,\"attributes\": [{\"attribute\": \"code\",\"count\": 14,\"type\": \"string\",\"values\": [\"1010101\",\"2010101\",\"2010201\",\"2010301\",\"3010101\",\"3020101\",\"3030101\",\"3030201\",\"3040101\",\"3040201\",\"3040202\",\"3040301\",\"5010201\",\"5010301\"]}]}]}}"
+}

@@ -6,7 +6,7 @@ task :landformclassification1 do
     --output=tmp/landformclassification1.mbtiles \
     tmp/landformclassification1.geojsons"
   sh "tile-join --force \
-    --output-to-directory=docs/zxy/landformclassification1 \
+    --output-to-directory=docs/zxy/experimental_landformclassification1 \
     --no-tile-compression --no-tile-size-limit \
     tmp/landformclassification1.mbtiles"
 end
