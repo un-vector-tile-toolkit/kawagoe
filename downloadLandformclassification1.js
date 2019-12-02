@@ -39,8 +39,8 @@ const writeQueue = new Queue(async (params, cb) => {
   for (f of params.features) {
     f.tippecanoe = {
       layer: 'landformclassification1', 
-      minzoom: 14,
-      maxzoom: 14
+      minzoom: 12,
+      maxzoom: 12
     }
     console.log(JSON.stringify(f))
   }
