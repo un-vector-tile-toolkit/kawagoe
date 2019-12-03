@@ -6,6 +6,6 @@ RUN git clone https://github.com/un-vector-tile-toolkit/kawagoe &&\
 #  yarn &&\
 #  yarn build-prod-min &&\
 #  yarn build-css &&\
-  cd ../kawagoe &&\
+  cd kawagoe &&\
   yarn
 
