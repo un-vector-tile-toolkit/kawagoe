@@ -15,6 +15,10 @@ task :bvmap do
   sh "node downloadBvmap.js"
 end
 
+task '1013do' do
+  sh "node download1013do.js"
+end
+
 task :build do 
   sh "parse-hocon hocon/style.conf --output docs/style.json"
   sh "gl-style-validate docs/style.json"

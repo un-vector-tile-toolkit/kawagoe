@@ -213,6 +213,11 @@
       "type": "fill"
     },
     {
+      "id": "1013do",
+      "source": "x",
+      "type": "raster"
+    },
+    {
       "id": "lake",
       "layout": {},
       "paint": {
@@ -616,6 +621,16 @@
         "https://un-vector-tile-toolkit.github.io/kawagoe/zxy/experimental_landformclassification1/{z}/{x}/{y}.pbf"
       ],
       "type": "vector"
+    },
+    "x": {
+      "attribution": "Source: GSI",
+      "maxzoom": 18,
+      "minzoom": 11,
+      "tileSize": 256,
+      "tiles": [
+        "https://un-vector-tile-toolkit.github.io/kawagoe/zxy/20191012typhoon19_tokigawa_1013do/{z}/{x}/{y}.png"
+      ],
+      "type": "raster"
     }
   },
   "sprite": "https://un-vector-tile-toolkit.github.io/kawagoe/sprite/std",
