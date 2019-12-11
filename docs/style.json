@@ -257,7 +257,24 @@
           240,
           190
         ],
-        "fill-extrusion-height": 25
+        "fill-extrusion-height": [
+          "match",
+          [
+            "get",
+            "ftCode"
+          ],
+          3101,
+          3,
+          3102,
+          15,
+          3103,
+          50,
+          3111,
+          3,
+          3112,
+          10,
+          5
+        ]
       },
       "source": "v",
       "source-layer": "building",
@@ -273,7 +290,7 @@
           135,
           75
         ],
-        "fill-extrusion-height": 25
+        "fill-extrusion-height": 5
       },
       "source": "v",
       "source-layer": "structurea",
