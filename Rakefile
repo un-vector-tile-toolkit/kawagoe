@@ -27,7 +27,7 @@ task :build do
 end
 
 task :host do
-  sh "budo -d docs --host=localhost"
+  sh "budo -d docs"
 end
 
 task :docker do
