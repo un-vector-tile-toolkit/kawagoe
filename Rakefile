@@ -30,6 +30,10 @@ task :host do
   sh "budo -d docs --host=localhost"
 end
 
+task :docker do
+  sh "docker run -ti --rm -p 9966:9966 unvt/kawagoe"
+end
+
 task :docker_build do
   sh "docker build -t unvt/kawagoe ."
 end
