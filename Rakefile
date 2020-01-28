@@ -22,12 +22,29 @@ task '1013do' do
   sh "node download1013do.js"
 end
 
-desc 'build style.json and bundle.js'
-task :build do 
-  sh "parse-hocon hocon/style.conf --output docs/style.json"
-  sh "gl-style-validate docs/style.json"
-  sh "browserify -o docs/bundle.js -t " +
-    "[ babelify --presets [ @babel/preset-env ] ] app.js"
+namespace :build do
+  def build(location)
+    sh({'LOCATION' => location}, 
+      "parse-hocon hocon/style.conf --output docs/style.json")
+    sh "gl-style-validate docs/style.json"
+    sh "browserify -o docs/bundle.js -t " +
+      "[ babelify --presets [ @babel/preset-env ] ] app.js"
+  end
+
+  desc 'build style.json for localhost'
+  task :localhost do 
+    build('http://raspberrypi.local:9966')
+  end
+
+  desc 'build style.json for raspberrypi.local'
+  task :raspi do
+    build('http://raspberrypi.local:9966')
+  end
+
+  desc 'build style.json for gh-pages'
+  task :pages do
+    build('https://un-vector-tile-toolkit.github.io/kawagoe')
+  end
 end
 
 desc 'host the site'
