@@ -24,6 +24,7 @@ rake download:bvmap   # download GSI Maps Vector tiles
 rake download:lc      # download landform classification data
 rake host             # host the site
 rake produce:lc       # produce vector tiles for landform data
+rake view:lc          # view landform classification data
 ```
 
 # Required external repositories

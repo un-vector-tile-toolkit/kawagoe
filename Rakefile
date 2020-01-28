@@ -30,6 +30,13 @@ namespace :download do
   end
 end
 
+namespace :view do
+  desc 'view landform classification data'
+  task :lc do
+    sh "less tmp/landformclassification1.geojsons"
+  end
+end
+
 namespace :build do
   def build(location)
     sh({'LOCATION' => location}, 
