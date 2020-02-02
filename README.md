@@ -1,4 +1,7 @@
 # kawagoe
+
+[![Join the chat at https://gitter.im/un-vector-tile-toolkit/kawagoe](https://badges.gitter.im/un-vector-tile-toolkit/kawagoe.svg)](https://gitter.im/un-vector-tile-toolkit/kawagoe?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 scenario-based exercise
 
 # Functions of this repository
