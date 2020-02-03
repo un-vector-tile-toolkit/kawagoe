@@ -14,6 +14,13 @@ scenario-based exercise
 $ yarn
 ```
 
+# Exercise on Raspberry Pi
+```zsh
+> rake docker:run
+$ rake build:raspi
+$ rake host
+```
+
 # List of `rake` tasks
 ```
 rake build:localhost  # build style.json for localhost
@@ -27,7 +34,12 @@ rake download:bvmap   # download GSI Maps Vector tiles
 rake download:lc      # download landform classification data
 rake host             # host the site
 rake produce:lc       # produce vector tiles for landform data
+rake view:app         # view app.js
+rake view:dockerfile  # view Dockerfile
+rake view:index       # view index.html
 rake view:lc          # view landform classification data
+rake view:rakefile    # view Rakefile
+rake view:style       # view style.conf
 ```
 
 # Required external repositories

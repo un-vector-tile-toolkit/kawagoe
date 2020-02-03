@@ -35,6 +35,31 @@ namespace :view do
   task :lc do
     sh "less tmp/landformclassification1.geojsons"
   end
+
+  desc 'view Rakefile'
+  task :rakefile do
+    sh "less Rakefile"
+  end
+
+  desc 'view Dockerfile'
+  task :dockerfile do
+    sh "less Dockerfile"
+  end
+
+  desc 'view style.conf'
+  task :style do
+    sh "less hocon/style.conf"
+  end
+
+  desc 'view index.html'
+  task :index do
+    sh "less docs/index.html"
+  end
+
+  desc 'view app.js'
+  task :app do
+    sh "less app.js"
+  end
 end
 
 namespace :build do
