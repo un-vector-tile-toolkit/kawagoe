@@ -17,6 +17,7 @@ $ yarn
 # Exercise on Raspberry Pi
 ```zsh
 > rake docker:run
+$ rake produce:lc
 $ rake build:raspi
 $ rake host
 ```
