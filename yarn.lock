@@ -779,10 +779,10 @@ esutils@^2.0.2:
   resolved "https://registry.yarnpkg.com/esutils/-/esutils-2.0.3.tgz#74d2eb4de0b8da1293711910d50775b9b710ef64"
   integrity sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==
 
-fetch-blob@^3.1.2, fetch-blob@^3.1.3:
-  version "3.1.4"
-  resolved "https://registry.yarnpkg.com/fetch-blob/-/fetch-blob-3.1.4.tgz#e8c6567f80ad7fc22fd302e7dcb72bafde9c1717"
-  integrity sha512-Eq5Xv5+VlSrYWEqKrusxY1C3Hm/hjeAsCGVG3ft7pZahlUAChpGZT/Ms1WmSLnEAisEXszjzu/s+ce6HZB2VHA==
+fetch-blob@^3.1.2, fetch-blob@^3.1.4:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/fetch-blob/-/fetch-blob-3.2.0.tgz#f09b8d4bbd45adc6f0c20b7e787e793e309dcce9"
+  integrity sha512-7yAQpD2UMJzLi1Dqv7qFYnPbaPx7ZfFK6PiIxQ4PfkGPyNyl2Ugx+a/umUonmKqjhM4DnfbMvdX6otXq83soQQ==
   dependencies:
     node-domexception "^1.0.0"
     web-streams-polyfill "^3.0.3"
@@ -894,13 +894,13 @@ node-eta@^0.9.0:
   resolved "https://registry.yarnpkg.com/node-eta/-/node-eta-0.9.0.tgz#9fb0b099bcd2a021940e603c64254dc003d9a7a8"
   integrity sha1-n7CwmbzSoCGUDmA8ZCVNwAPZp6g=
 
-node-fetch@^3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-3.1.1.tgz#d0d9607e455b3087e3092b821b5b1f1ebf4c2147"
-  integrity sha512-SMk+vKgU77PYotRdWzqZGTZeuFKlsJ0hu4KPviQKkfY+N3vn2MIzr0rvpnYpR8MtB3IEuhlEcuOLbGvLRlA+yg==
+node-fetch@^3.2.10:
+  version "3.2.10"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-3.2.10.tgz#e8347f94b54ae18b57c9c049ef641cef398a85c8"
+  integrity sha512-MhuzNwdURnZ1Cp4XTazr69K0BTizsBroX7Zx3UgDSVcZYKF/6p0CBe4EUb/hLqmzVhl0UpYfgRljQ4yxE+iCxA==
   dependencies:
     data-uri-to-buffer "^4.0.0"
-    fetch-blob "^3.1.3"
+    fetch-blob "^3.1.4"
     formdata-polyfill "^4.0.10"
 
 node-releases@^1.1.71:
